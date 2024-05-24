@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Material de consulta para auto estudo e desenvolvimento do projeto:
 
-## Getting Started
+Como criamos o ambiente do Next.js?
+Como instalamos o MUI?
+Como adicionamos imagem no Next.js?
+Componentes usados; NavBar, ThemeConfig, Box,CssBaseline, Toolbar, IconMenu,Typography, Button, CardContent, Card, CardActionArea e CardMedia.
+Como configurar o Thema?
 
-First, run the development server:
+Projeto: Tela Home com Material-UI
+Este projeto é uma prova de conceito (PoC) para a criação de uma tela home utilizando Material-UI no Next.js, organizado na arquitetura MVC (Model-View-Controller).
+Arquitetura MVC
+Model: Responsável por gerenciar os dados, a lógica de negócios e as regras da aplicação.
+View: Responsável pela apresentação dos dados e interação com o usuário.
+Controller: Atua como um intermediário entre o Model e a View, recebendo as entradas do usuário via View, processando os dados através do Model e retornando a resposta adequada para a View.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Estrutura de Diretórios
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+xxxxxxxxxxxxx
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Instalação e Configuração
+Siga os passos abaixo para configurar e executar o projeto localmente.
+Pré-requisitos
+Node.js (>= 20.x.x) 
+npm 
+Obs: Você pode usar npm ou yarn.
+Passo a Passo
+Fork o repositório:
+Clone o repositório:
+Copiar código: git <url repositorio>
+Instale as dependências:
+Com npm:
+npm install
+      6. npm run dev
+           Com Yarn
+      7. Acesse no navegador:
+Abra seu navegador e acesse http://localhost:3000 para visualizar a aplicação em execução.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Descrição do Projeto
+Este projeto implementa uma tela home básica utilizando Material-UI para estilização dos componentes React dentro de um ambiente Next.js.
+Componentes
+index.tsx: Componente da View responsável por renderizar a interface da tela home.
+hello.ts: Controlador que gerencia a lógica de apresentação e interação da tela home.
+_document.tsx: Modelo que contém os dados e a lógica de negócios necessários para a tela home.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Tecnologias Utilizadas
+Para instalação das tecnologias utilizar: 
+npx create-next-app@latest e-acelera-front --typescript
+e
+npm install @mui/material @emotion/react @emotion/styled
+e
+npm install @emotion/react @emotion/styled
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Next.js
+React
+Material-UI
+TypeScript
+Tailwind CSS
+Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
+Licença
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
